@@ -14,5 +14,29 @@ body {
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
-
 /* Voeg jouw css hieraan toe */
+
+/*concurrentieanalyse*/
+
+.ca{
+    float:right;
+    padding-bottom:10px;
+    padding-right:15px;
+    width:500px;
+    height:250px; 
+}
+
+.list{
+    list-style-type:none;
+    list-style:none;
+    padding-left:0;
+}
+
+a:hover {
+  font-weight:bold;
+  color:rgb(44, 137, 243);
+}
+
+.ca img1{
+    float:right;
+}
