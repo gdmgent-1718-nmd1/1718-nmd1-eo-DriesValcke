@@ -45,19 +45,27 @@ a:hover {
 }
 
 /*Digital styleguide*/
+
 .box{
 font-family:"Lato";
 box-shadow: 0 0 10px #333;
 padding: 20px;
 }
+
+.boxinfo{
+font-family:"Lato";
+width:80%;
+padding-left:90px;
+padding-top:10px;
+}
   
 .logo1{
 width:40%;
 height:40%;
-margin-left:100px;
+margin-left:90px;
 }
 
 .logo2{
 width:50%;
 height:50%;
-  }
+}
