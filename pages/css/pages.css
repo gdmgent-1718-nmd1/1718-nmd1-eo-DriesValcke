@@ -37,8 +37,8 @@ img {
 }
 
 a:hover {
-  font-weight:bold;
-  color:rgb(44, 137, 243);
+    font-weight:bold;
+    color:rgb(44, 137, 243);
 }
 
 .ca img1{
@@ -65,6 +65,15 @@ a:hover {
     margin: 0 auto 0 auto;
 }
 
+.box3{
+    font-family:"Lato";
+    box-shadow: 0 0 10px #333;
+    padding:20px;
+    padding-bottom:30px;
+    width:90%;
+    margin: 0 auto 0 auto;
+}
+
 .logo1{
     width:30%;
     height:30%;
@@ -72,9 +81,9 @@ a:hover {
 }
 
 .logo2{
-width:40%;
-height:40%;
-float:left;
+    width:40%;
+    height:40%;
+    float:left;
 }
 
 .boxinfo{
@@ -86,6 +95,7 @@ float:left;
     font-size:15px;
     color:hsla(49, 73%,40%, 1);
 }
+
 .boxinfo2{
     font-family:"Lato";
     float:right;
@@ -94,8 +104,7 @@ float:left;
     margin-right:20px;
     text-align:justify;
     font-size:15px;
-    color:hsla(49, 73%,40%, 1);
-   
+    color:hsla(49, 73%,40%, 1);  
 }
 
 .typografie{
@@ -112,4 +121,78 @@ float:left;
 }
 .link{
     font-family:"Nanum Gothic"
+}
+
+.flexparent{
+    display:flex;
+    justify-content:space-between;
+}
+
+.flexparent1{
+    display:flex;
+    margin-top:20px;
+    text-align:left;
+    justify-content:space-between;
+}
+
+.kleurencode{
+    width:200px;
+    height:70px;
+    text-align:center;
+}
+
+.kleur1{
+    background-color:hsla(49, 63%, 61%, 1);
+    border:solid;
+    border-width:1px;
+    border-color:black;
+    width:200px;
+    height:200px;
+    margin-top:30px;
+    font-size:12px;
+}
+
+.kleur2{
+    background-color:hsla(0, 0%, 100%, 1);
+    border:solid;
+    border-width:1px;
+    border-color:black;
+    width:200px;
+    height:200px;
+    margin-top:30px;
+    font-size:12px;
+}
+
+.kleur3{
+    background-color:hsla(0, 0%, 0%, 1);
+    border:solid;
+    border-width:1px;
+    border-color:black;
+    color:white;
+    width:200px;
+    height:200px;
+    margin-top:30px;
+    font-size:12px;
+}
+
+.kleur4{ 
+    background-color:hsla(186, 100%, 37%, 1);
+    border:solid;
+    border-width:1px;
+    border-color:black;
+    width:200px;
+    height:200px;
+    margin-top:30px;
+    font-size:12px;
+}
+
+.kleur5{ 
+    background-color:hsla(44, 16%, 76%, 1);
+    border:solid;
+    border-width:1px;
+    border-color:black;
+    width:200px;
+    height:200px;
+    margin-top:30px;
+    font-size:12px;
 }
