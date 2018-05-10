@@ -59,42 +59,10 @@ a:hover {
 .box2{
     font-family:"Lato";
     box-shadow: 0 0 10px #333;
-    padding: 20px;
-    width: 90%;
+    padding:20px;
+    padding-bottom:390px;
+    width:90%;
     margin: 0 auto 0 auto;
-}
-
-.boxinfo{
-    font-family:"Lato";
-    width:90%;
-    padding-left:90px;
-    text-align:justify;
-    margin-top:50px;
-    font-size:15px;
-}
-
-.boxinfo2{
-    font-family:"Lato";
-    width:60%;
-}
-  
-.boxinfo3{
-    font-family:"Lato";
-    width:90%;
-    padding-left:90px;
-    text-align:justify;
-    margin-top:50px;
-    font-size:15px;
-}
-
-.kop4{
-    font-family:"Nanum Gothic"
-}
-.kop5{
-    font-family:"Nanum Gothic"
-}
-.link{
-    font-family:"Nanum Gothic"
 }
 
 .logo1{
@@ -107,4 +75,37 @@ a:hover {
 width:40%;
 height:40%;
 float:left;
+}
+
+.boxinfo{
+    font-family:"Lato";
+    width:90%;
+    padding-left:90px;
+    text-align:justify;
+    margin-top:50px;
+    font-size:15px;
+    color:hsla(49, 73%,40%, 1);
+}
+.boxinfo2{
+    font-family:"Lato";
+    width:80%;
+    text-align:justify;
+    font-size:15px;
+    color:hsla(49, 73%,40%, 1);
+}
+
+.typografie{
+    font-family:"Lato";
+    width:55%;
+    float:left;
+}
+
+.kop4{
+    font-family:"Nanum Gothic"
+}
+.kop5{
+    font-family:"Nanum Gothic"
+}
+.link{
+    font-family:"Nanum Gothic"
 }
