@@ -60,7 +60,7 @@ a:hover {
     font-family:"Lato";
     box-shadow: 0 0 10px #333;
     padding:20px;
-    padding-bottom:390px;
+    padding-bottom:510px;
     width:90%;
     margin: 0 auto 0 auto;
 }
@@ -88,15 +88,19 @@ float:left;
 }
 .boxinfo2{
     font-family:"Lato";
-    width:80%;
+    float:right;
+    width:28%;
+    margin-top:30px;
+    margin-right:20px;
     text-align:justify;
     font-size:15px;
     color:hsla(49, 73%,40%, 1);
+   
 }
 
 .typografie{
     font-family:"Lato";
-    width:55%;
+    width:65%;
     float:left;
 }
 
