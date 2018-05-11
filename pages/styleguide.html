@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
+
 <h1>Digital Styleguide</h1>
 <br>
 
@@ -123,7 +124,10 @@
         </div>
     </div>
     <div class="boxinfo3">
-            <p>Deze vier knoppen zijn allemaal voorzien van een boxshadow en een hover-effect. De kleur van de knop wordt donkerder wanneer de gebruiker er met de cursor over beweegt </p>  
+            <p>Deze vier knoppen hebben eenzelfde border-radius van 12 px en een font-size van 16px. Ze zijn allemaal voorzien van een boxshadow (2px 2px 4px) en een hovereffect; de kleur van de knop wordt donkerder wanneer de gebruiker er met de cursor over beweegt. Elke knop heeft een padding van 15px, een margin-top van 4px en een margin-right van 2px. 
+            <br> 
+            <br>
+            Voor de kleur van de eerste knop werd de HEX-code #3B5998 gebruikt. Het facebook-icoon werd toegevoegd aan de hand van een font-awesome link. De tweede knop heeft als kleur #00aced. Het twitter-icoon werd ook toegevoegd via een font-awesome link. De twee laatste knoppen hebben #dac35d als kleurencode. Dit is de kleur die opgegeven werd door de project generator.  </p>  
     </div>
 </div> 
 
@@ -132,15 +136,30 @@
 <div class="box5">
         <h1>Navigatiebalk</h1>
         <hr>
-    <div class="sidenav">
-        <a href="#">Bio</a>
-        <a href="#">On tour</a>
-        <a href="#">Music</a>
-        <a href="#">Videos</a>
-        <a href="#">Contact</a>
+    <div class="flexparent3">
+        <div class="subnav">
+            <a href="#">Bio</a>
+        </div>
+        <div class="subnav"> 
+            <a href="#">On tour</a>  
+        </div>
+        <div class="subnav">
+            <a href="#">Music</a>
+        </div>
+        <div class="subnav">
+            <a href="#">Videos</a>
+        </div>
+        <div class="subnav"> 
+            <a href="#">Contact</a>
+        </div>
     </div>
 
-
+    <div class="boxinfo4">
+        <p>De navigatiebalk bevat vijf onderdelen die de gebruiker kan aanklikken. Elk van deze onderdelen is voorzien van een reveal border-hovereffect. Wanneer de gebruiker de cursor over de onderdelen beweegt verschijnt er een balk rond de tekst.
+        <br>
+        <br>
+        De navigatiebalk is een div (niveau1) met een margin-top en padding-top van 20px en een border radius (10px 0px 10px 0px). Het reveal border-hoverffect is bekomen door elk onderdeel in een div (niveau2) te plaatsen binnen de div van de navigatiebalk (niveau1). Door de breedte en hoogte van de div's op niveau twee, kleiner te maken dan de breedte en hoogte van de div op niveau 1 kan men de balk waarnemen. </p>
+    </div>
 </div>
 
 </body>

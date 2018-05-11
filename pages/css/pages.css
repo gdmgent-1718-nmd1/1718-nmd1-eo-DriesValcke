@@ -13,7 +13,9 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
+
 }
+
 
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
@@ -80,7 +82,8 @@ a:hover {
     padding:20px;
     width:42%;
     margin-left:40px;
-    margin-bottom:100px;
+    margin-bottom:50px;
+    padding-bottom:71px;
     float:left;
 
 }
@@ -89,10 +92,10 @@ a:hover {
     font-family:"Lato";
     box-shadow: 0 0 10px #333;
     padding:20px;
-    padding-bottom:40px;
+    padding-bottom:23px;
     width:42%;
     float:right;
-    margin-bottom:100px;
+    margin-bottom:50px;
     margin-right:40px;
 }
 
@@ -135,10 +138,23 @@ a:hover {
     float:left;
     width:98%;
     margin-right:15px;
+    padding-top:20px;
     text-align:justify;
     font-size:15px;
     color:hsla(49, 73%,40%, 1);  
 }
+
+
+.boxinfo4{
+    font-family:"Lato";
+    float:left;
+    width:60%;
+    margin-right:15px;
+    text-align:justify;
+    font-size:15px;
+    color:hsla(49, 73%,40%, 1);  
+}
+
 
 .typografie{
     font-family:"Lato";
@@ -300,7 +316,7 @@ a:hover {
 
 /*navigatiebalk*/
 
-.sidenav {
+.flexparent3 {
     height:380px; 
     width:140px; 
     margin-top:20px;
@@ -308,18 +324,26 @@ a:hover {
     padding-top:20px;
     float:right;
     border-radius:10px 0px 0px 10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space between;
 }
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    padding-bottom:50px;
+.subnav a {
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:25px;
+    padding-top:10px;
+    padding-bottom:10px;
     text-decoration: none;
     text-align:center;
     font-size: 20px;
     color: #dac35d;
     display: block;
+    border:transparent;
+    border-color: #dac35d;
 }
 
-.sidenav a:hover {
-    color:white;
+.subnav a:hover {
+    border:solid 1px;
 }
