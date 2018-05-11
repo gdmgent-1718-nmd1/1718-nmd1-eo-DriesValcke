@@ -78,7 +78,7 @@ a:hover {
     font-family:"Lato";
     box-shadow: 0 0 10px #333;
     padding:20px;
-    padding-bottom:30px;
+    padding-bottom:110px;
     width:90%;
     margin: 0 auto 0 auto;
 }
@@ -117,6 +117,17 @@ a:hover {
     color:hsla(49, 73%,40%, 1);  
 }
 
+
+.boxinfo3{
+    font-family:"Lato";
+    float:right;
+    width:48%;
+    margin-right:15px;
+    text-align:justify;
+    font-size:15px;
+    color:hsla(49, 73%,40%, 1);  
+}
+
 .typografie{
     font-family:"Lato";
     width:65%;
@@ -143,6 +154,14 @@ a:hover {
     margin-top:20px;
     text-align:left;
     justify-content:space-between;
+}
+
+.flexparent2{
+    display:flex;
+    margin-top:20px;
+    flex-direction:row;
+    float:left;
+
 }
 
 .kleurencode{
@@ -207,11 +226,8 @@ a:hover {
     font-size:12px;
 }
 
-.logos{
-    margin-top:30px;
-}
 
-/* Facebook-icoon*/
+/*knoppen*/
 
 .button {
     border: none;
@@ -227,8 +243,46 @@ a:hover {
 .button1 {
     border-radius: 12px;
     background-color:#3B5998;
+    box-shadow: 2px 2px 4px rgb(37, 37, 37);
+    font-size:14px;
 }
+
+.button1:hover{
+    background-color:rgb(14, 38, 88);
+}
+
 .button2 {
     border-radius: 12px;
     background-color:#00aced;
+    box-shadow: 2px 2px 4px rgb(37, 37, 37);
+    margin-left:20px;
 }
+
+.button2:hover{
+    background-color:#047aa5;
+}
+
+.button3 {
+    border-radius: 12px;
+    background-color:#dac35d;
+    box-shadow: 2px 2px 4px rgb(37, 37, 37);
+    color:black;
+    margin-left:20px;
+}
+
+.button3:hover{
+    background-color:#b9a64e;
+}
+
+.button4 {
+    border-radius: 12px;
+    background-color:#dac35d;
+    box-shadow: 2px 2px 4px rgb(37, 37, 37);
+    color:black;
+    margin-left:20px;
+}
+
+.button4:hover{
+    background-color:#b9a64e;
+}
+
