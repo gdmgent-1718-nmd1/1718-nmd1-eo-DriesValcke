@@ -74,6 +74,16 @@ a:hover {
     margin: 0 auto 0 auto;
 }
 
+.box4{
+    font-family:"Lato";
+    box-shadow: 0 0 10px #333;
+    padding:20px;
+    padding-bottom:30px;
+    width:90%;
+    margin: 0 auto 0 auto;
+}
+
+
 .logo1{
     width:30%;
     height:30%;
@@ -195,4 +205,30 @@ a:hover {
     height:200px;
     margin-top:30px;
     font-size:12px;
+}
+
+.logos{
+    margin-top:30px;
+}
+
+/* Facebook-icoon*/
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button1 {
+    border-radius: 12px;
+    background-color:#3B5998;
+}
+.button2 {
+    border-radius: 12px;
+    background-color:#00aced;
 }
